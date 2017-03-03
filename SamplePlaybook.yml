@@ -1,3 +1,9 @@
----
-- hosts: all
-  - shell: date > ~/changedate.txt
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: Hello Again
+      debug: 
+        msg: "Hello World Again!"
