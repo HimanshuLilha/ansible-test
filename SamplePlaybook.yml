@@ -5,7 +5,7 @@
       debug:
         msg: "Hello World!"
     - name: sleep 10 sec
-      - shell: sleep 10
+      shell: sleep 10
     - name: Hello Again
       debug: 
         msg: "Hello World Again!"
