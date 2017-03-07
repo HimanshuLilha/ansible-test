@@ -4,8 +4,8 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-    - name: sleep 10 sec
-      shell: sleep 10
+    - name: sleep 20 sec
+      shell: sleep 20
     - name: Hello Again
       debug: 
         msg: "Hello World Again!"
